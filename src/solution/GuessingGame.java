@@ -13,11 +13,11 @@ public class GuessingGame {
 		boolean notRightYet = true;
 		
 		System.out.println("Guess the number from 1-10 I'm thinking of! ");
-		while(notRightYet == true) {
-			int userAnswer = input.nextInt();
+		int userAnswer = -1;
+		while(guessMe != userAnswer) {
+			userAnswer = input.nextInt();
 			if(guessMe == userAnswer){
 				System.out.println("Correct! I was thinking of the number " + guessMe);
-				notRightYet = false;
 			}
 			else if (guessMe > userAnswer){
 				System.out.println("Close, but guess higher!");

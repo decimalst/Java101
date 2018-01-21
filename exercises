@@ -3,10 +3,28 @@ Exercises:
 1. Guessing game
 	1. Generate a random number from 1-10
 	2. Ask the user to guess a random number.
-	3. If the user guesses the right number, tell them they were correct, and end the game
-	4. If the user guesses wrong, tell them to guess higher or lower, depending on their answer
+	3. If the user guesses the right number,
+	 tell them they were correct, and end the game
+	4. If the user guesses wrong, 
+	tell them to guess higher or lower, depending on their answer
 Hint: Try using a while loop with a boolean condition
+
+
+
+
 
 2. Try making the same guessing game using a Do-While loop
 
 3. Make a program that prints all the numbers divisible by 3 from 1-50. Do this with a while loop and with a for loop.
+
+Challenge Problems - Try to have a solution by the start of next class
+
+4. A prime number is a number that's only divisible by itself and 1. For example, 5 is a prime number, because the only factors it has are 1 and 5. 
+4 is not a prime number, since (2 x 2) = 4, and so does (4 x 1).
+Make a program that prints all the prime numbers from 1-100.
+Hint: Use modulo.
+
+5. A palindrome is a phrase or sentence that is the same backwards or forwards.
+For example, "racecar" is the same backwards and forward. So is "a car, a man, a maraca"(Ignoring punctuation). 
+There are plenty of other examples you can find on the internet. Try making a program that can take a string as input, and print if it's a palindrome or not.
+
